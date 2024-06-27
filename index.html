@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="page1">
+            <nav
+                class="navbar navbar-expand-md bsb-navbar bsb-navbar-hover bsb-navbar-caret py-3 new_navbar sticky-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./assets/images/logo-no-background.png" class="logo" alt="Logo" />
+                    </a>
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#page1">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#page5">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#page3">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#page6">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Hero Section -->
+            <div class="hero-section container">
+                <!-- <div class="absolute faded-text">Vikas</div> -->
+                <!-- Left Section -->
+                <div class="hero-section-left">
+                    <!-- Heading -->
+                    <div class="hero-section-heading">Hi! Vikas</div>
+                    <div class="hero-section-heading herosection-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="hero-section-description">
+                        I’m a software developer and here is my portfolio website. Here
+                        you’ll learn about my journey as a software developer.
+                    </div>
+
+                    <!-- Section: Social media -->
+                    <section class="mb-4 socials-div">
+                        <a data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="#!"
+                            role="button"><i class="fab fa-facebook-f"></i></a>
+                        <a data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="#!"
+                            role="button"><i class="fab fa-twitter"></i></a>
+                        <a data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="#!"
+                            role="button"><i class="fab fa-instagram"></i></a>
+                        <a data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="#!"
+                            role="button"><i class="fab fa-linkedin-in"></i></a>
+                        <a data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="#!"
+                            role="button"><i class="fab fa-github"></i></a>
+                    </section>
+
+                    <!-- Button -->
+                    <div class="btn-div">
+                        <div class="btn-pink" id="btn-top">Hire me</div>
+                    </div>
+                </div>
+
+                <!-- Right Section -->
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="./assets/images/dots.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-cube">
+                        <img src="./assets/images/cube.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-circle">
+                        <img src="./assets/images/circle.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-zigzak">
+                        <img src="./assets/images/zigzags.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-plus">
+                        <img src="./assets/images/plus.png" alt="" />
+                    </div>
+                    <div class="user-image">
+                        <img src="./assets/images/img.jpg" alt="" width="345" height="390" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page2">
+            <div class="container pt-3">
+                <div class="row">
+                    <h2 class="text-center  py-4 fw-bold fs-1">About Me</h2>
+                    <div class="col-md-6">
+                        <div class="video-div">
+                            <video autoplay loop muted src="./assets/video/male-developer.mp4"></video>
+                        </div>
+                    </div>
+                    <div class="col-md-6 about-text ">
+
+                        <h4 class="p-4 mt-5">I'm a developer is proficient in both front-end and back-end web development, handling client-side and server-side components. They work with languages like HTML, CSS, JavaScript. Implementing responsive design to ensure compatibility across different devices and screen sizes.</h4>
+                         
+                        <!-- <p>I'm Vikas</p>
+                        <p>I would love be</p>
+                        <p>a part of an</p>
+                        <p>organization that </p>
+                        <p>will give me a </p>
+                        <p>platform to utilize my</p>
+                        <p>technical, communication and leadership </p>
+                        <p>skills, enrich my knowledge</p>
+                        <p>for the development of</p>
+                        <p>organization without overlooking</p>
+                        <p>basic values of life and</p>
+                        <p>wherein I can work with</p>
+                        <p>certainty, energy and be</p>
+                        <p>better than the best.</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+            <div class="container text-center">
+                <h1 class="text-center py-5 fw-bold"><i class="fa-solid fa-laptop-code"></i> Skills & <span
+                        class="text-warning">Abilities</span></h1>
+                <div class="row pt-5">
+                    <div class="col-md-2">
+                        <div class="bar">
+                            <div class="info">
+                                <img src="./assets/images/HTML.png" alt="skill">
+                                <span>HTML5</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="bar">
+                            <div class="info">
+                                <img src="./assets/images/css.png" alt="skill">
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="bar">
+                            <div class="info">
+                                <img src="./assets/images/js.png" alt="skill">
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="bar">
+                            <div class="info">
+                                <img src="./assets/images/c.png" alt="skill">
+                                <span>C</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="bar">
+                            <div class="info">
+                                <img src="./assets/images/java.png" alt="skill">
+                                <span>JAVA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="bar">
+                            <div class="info">
+                                <img src="./assets/images/c_sharp.png" alt="skill">
+                                <span>C#</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+
+                    <div class="col-md-2">
+                        <div class="bar">
+                            <div class="info">
+                                <img src="./assets/images/bootstrap.png" alt="skill">
+                                <span>bootstrap5</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="bar">
+                            <div class="info">
+                                <img src="./assets/images/asp.png" alt="skill">
+                                <span>ASP .NET</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="bar">
+                            <div class="info">
+                                <img src="./assets/images/sql.png" alt="skill">
+                                <span>SQLServer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="bar">
+                            <div class="info">
+                                <img src="./assets/images/git.png" alt="skill">
+                                <span>Git VCS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="bar">
+                            <div class="info">
+                                <img src="./assets/images/github.png" alt="skill">
+                                <span>GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page4">
+            <div class="container">
+                <h1 class="fw-bold text-center py-4"><i class="fa-solid fa-graduation-cap"></i> My <span
+                        id="education">Education</span></h1>
+
+                <div class="col-md-8 mx-auto edu">
+                    <div class="card mb-3 mx-auto">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/images/kcmt.jfif" class="img-fluid rounded-start clg-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-3">Master of Computer Applications</h5>
+                                    <p class="card-text fs-6">Khandelwal College of Management Science and Technology,
+                                        A.K.T.U LUCKNOW, India</p>
+                                    <p class="card-text">2021 - 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 mx-auto edu">
+                    <div class="card mb-3 mx-auto">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/images/rc.png" class="img-fluid rounded-start clg-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-3">Bachelor of Computer Applications</h5>
+                                    <p class="card-text fs-6">Regional College of Professional Studies & Research,
+                                        M.J.P.R.U, India</p>
+                                    <p class="card-text">2018 - 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 mx-auto mb-1 edu">
+                    <div class="card mb-3 mx-auto">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/images/12th.png" class="img-fluid rounded-start clg-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-3">Intermediate (PCM)</h5>
+                                    <p class="card-text fs-6">Singh Memorial Inter College Kalari Bareilly</p>
+                                    <p class="card-text">2017 - 2018</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="page5">
+            <div class="container">
+                <h1 class="fw-bold text-center py-4"><i class="fa-solid fa-graduation-cap"></i> Projects </h1>
+
+            </div>
+        </div>
+        <div id="page6">
+            <div class="container pb-3">
+                <h1 class="fw-bold text-center py-4 text-dark"><i class="fa-solid fa-headset"></i></i> Get In <span
+                        style="color: rgb(115, 3, 167);">Touch</span></h1>
+                <div class="col-md-10 bg-light mx-auto p-5 rounded">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="./assets/images/contact1.png" class="w-100 pb-3" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group flex-nowrap pb-4">
+                                <span class="input-group-text" id="addon-wrapping"><i
+                                        class="fa-solid fa-user"></i></span>
+                                <input type="text" class="form-control shadow-none fs-5 py-2" placeholder="Name"
+                                    aria-label="Name" aria-describedby="addon-wrapping">
+                            </div>
+                            <div class="input-group flex-nowrap pb-4">
+                                <span class="input-group-text" id="addon-wrapping"><i
+                                        class="fa-solid fa-envelope"></i></span>
+                                <input type="text" class="form-control shadow-none fs-5 py-2" placeholder="Email"
+                                    aria-label="Email" aria-describedby="addon-wrapping">
+                            </div>
+                            <div class="input-group flex-nowrap pb-4">
+                                <span class="input-group-text" id="addon-wrapping"><i
+                                        class="fa-solid fa-phone"></i></span>
+                                <input type="text" class="form-control shadow-none fs-5 py-2" placeholder="Phone"
+                                    aria-label="Phone" aria-describedby="addon-wrapping">
+                            </div>
+
+                            <div class="input-group pb-4">
+                                <span class="input-group-text"><i class="fa-solid fa-comment-dots"></i></span>
+                                <textarea class="form-control shadow-none fs-5 py-2" placeholder="Message"
+                                    aria-label="With textarea"></textarea>
+                            </div>
+                            <div class="input-group text-center">
+                                <button class="btn btn-primary px-4 my-3 fs-5 mx-auto">Submit <i
+                                        class="fa-solid fa-paper-plane"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mb-2">
+            <div class="container p-4 border-bottom">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 class="py-3">Vikas's Portfolio</h3>
+                        <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+                    </div>
+                    <div class="col-md-4 Links">
+                        <h3 class="py-3">Quick Links</h3>
+                        <li><a href="#"><i class="fa-solid fa-circle-chevron-right"></i> Home</a></li>
+                        <li><a href="#"><i class="fa-solid fa-circle-chevron-right"></i> About</a></li>
+                        <li><a href="#"><i class="fa-solid fa-circle-chevron-right"></i> Skills</a></li>
+                        <li><a href="#"><i class="fa-solid fa-circle-chevron-right"></i> Education</a></li>
+                        <li><a href="#"><i class="fa-solid fa-circle-chevron-right"></i> Projects</a></li>
+                    </div>
+                    <div class="col-md-4 contact-div">
+                        <h3 class="py-3">Contact Info</h3>
+                        <p><i class="fa-solid fa-phone"></i> +91 XXX-XXX-XXXX</p>
+                        <p><i class="fa-solid fa-comment-dots"></i> itsvikas94@gmail.com</p>
+                        <p><i class="fa-solid fa-map-location-dot"></i> Bareilly, India-243122</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-3 pb-1">
+                <p>Designed With <i class="fa-solid fa-heart"></i> By <span>Vikas</span></p>
+            </div>
+
+        </footer>
+        
+
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
